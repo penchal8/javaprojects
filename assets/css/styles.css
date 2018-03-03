@@ -288,7 +288,7 @@ body {margin:0;}
   overflow: hidden;
   background-color: #fff;
   color:black;
-  position: fixed;
+  /* position: fixed; */
   height:48px;
   bottom: 0;
   width: 100%;
@@ -341,14 +341,14 @@ body {margin:0;}
 
 #myTopBtn {
   display: none;
-  position: fixed;
- bottom:0px;
+ position: fixed; 
+ bottom:48px;
   right: 20px;
   z-index: 99;
   font-size: 16px;
-  border: 1px solid #cccccc;
+   border: 1px solid #cccccc;
   outline: none;
-  background-color:royalblue;
+  background-color:royalblue; 
   color:#fff ;
   cursor: pointer;
   padding: 15px;
